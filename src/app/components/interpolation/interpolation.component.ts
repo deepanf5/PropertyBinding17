@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './interpolation.component.css'
 })
 export class InterpolationComponent {
+  title:string = "Interpolation components works"
 
 }
