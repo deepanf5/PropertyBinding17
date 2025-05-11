@@ -1,0 +1,6 @@
+<p>style-class works!</p>
+
+<div>
+    <p>Button status : <span [style.background]="ActiveStatus ? 'green' : 'red'"> {{ActiveStatus}}</span></p>
+</div>
+<button (click)="onBtnClick()" [class.active]="ActiveStatus">click to Active </button>
